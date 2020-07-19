@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/utils"
+	"github.com/heartlhj/gorm/clause"
+	"github.com/heartlhj/gorm/utils"
 )
 
 // Create insert the value into database

@@ -3,10 +3,10 @@ package callbacks
 import (
 	"reflect"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/heartlhj/gorm"
+	"github.com/heartlhj/gorm/clause"
+	"github.com/heartlhj/gorm/schema"
+	"github.com/heartlhj/gorm/utils"
 )
 
 func preload(db *gorm.DB, rels []*schema.Relationship, conds []interface{}) {

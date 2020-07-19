@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/heartlhj/gorm"
+	. "github.com/heartlhj/gorm/utils/tests"
 )
 
 type Product struct {

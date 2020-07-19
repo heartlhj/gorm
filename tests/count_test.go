@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/heartlhj/gorm"
+	. "github.com/heartlhj/gorm/utils/tests"
 )
 
 func TestCount(t *testing.T) {

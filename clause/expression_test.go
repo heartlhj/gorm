@@ -7,10 +7,10 @@ import (
 	"sync"
 	"testing"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils/tests"
+	"github.com/heartlhj/gorm"
+	"github.com/heartlhj/gorm/clause"
+	"github.com/heartlhj/gorm/schema"
+	"github.com/heartlhj/gorm/utils/tests"
 )
 
 func TestExpr(t *testing.T) {

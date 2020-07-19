@@ -1,10 +1,10 @@
 package tests
 
 import (
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/schema"
+	"github.com/heartlhj/gorm"
+	"github.com/heartlhj/gorm/clause"
+	"github.com/heartlhj/gorm/logger"
+	"github.com/heartlhj/gorm/schema"
 )
 
 type DummyDialector struct {

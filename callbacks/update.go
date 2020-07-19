@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"sort"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
+	"github.com/heartlhj/gorm"
+	"github.com/heartlhj/gorm/clause"
+	"github.com/heartlhj/gorm/schema"
 )
 
 func SetupUpdateReflectValue(db *gorm.DB) {

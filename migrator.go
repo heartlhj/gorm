@@ -3,8 +3,8 @@ package gorm
 import (
 	"database/sql"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
+	"github.com/heartlhj/gorm/clause"
+	"github.com/heartlhj/gorm/schema"
 )
 
 // Migrator returns migrator

@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/heartlhj/gorm"
+	. "github.com/heartlhj/gorm/utils/tests"
 )
 
 func TestJoins(t *testing.T) {

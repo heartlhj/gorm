@@ -1,4 +1,4 @@
-module gorm.io/gorm
+module github.com/heartlhj/gorm
 
 go 1.12
 

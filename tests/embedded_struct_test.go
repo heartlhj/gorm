@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	"gorm.io/gorm"
+	"github.com/heartlhj/gorm"
 )
 
 func TestEmbeddedStruct(t *testing.T) {

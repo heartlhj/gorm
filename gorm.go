@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/schema"
+	"github.com/heartlhj/gorm/clause"
+	"github.com/heartlhj/gorm/logger"
+	"github.com/heartlhj/gorm/schema"
 )
 
 // Config GORM config

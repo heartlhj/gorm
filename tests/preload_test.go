@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"gorm.io/gorm/clause"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/heartlhj/gorm/clause"
+	. "github.com/heartlhj/gorm/utils/tests"
 )
 
 func TestPreloadWithAssociations(t *testing.T) {

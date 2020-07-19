@@ -11,9 +11,9 @@ import (
 	"strings"
 	"sync"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/heartlhj/gorm/clause"
+	"github.com/heartlhj/gorm/schema"
+	"github.com/heartlhj/gorm/utils"
 )
 
 // Statement statement

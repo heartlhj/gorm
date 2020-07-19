@@ -1,4 +1,4 @@
-module gorm.io/gorm/tests
+module github.com/heartlhj/gorm/tests
 
 go 1.14
 
@@ -10,7 +10,7 @@ require (
 	gorm.io/driver/postgres v0.2.6
 	gorm.io/driver/sqlite v1.0.8
 	gorm.io/driver/sqlserver v0.2.5
-	gorm.io/gorm v0.2.19
+	github.com/heartlhj/gorm v0.2.19
 )
 
-replace gorm.io/gorm => ../
+replace github.com/heartlhj/gorm => ../
